@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+.avatar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.bio {
+    opacity: 0.8;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+form {
+    margin: 12px 0;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* ألوان المنصات */
+.instagram { background: #E1306C; }
+.whatsapp  { background: #25D366; }
+.facebook    { background: #0866FF; }
+.linkedin   { background: #0A66C2; }
+.telegram   { background: #40ADE4; }
+
+footer {
+    margin-top: 25px;
+    font-size: 16px;
+    opacity: 0.6;
+}
